@@ -10,9 +10,9 @@
     "./*": "./dist/*"
   },
   "scripts": {
-    "build": "webpack --config webpack.config.js",
-    "build:dev": "webpack --config webpack.config.js --mode development",
-    "build:watch": "webpack --config webpack.config.js --watch",
+    "build": "node init && webpack --config webpack.config.js",
+    "build:dev": "node init && webpack --config webpack.config.js --mode development",
+    "build:watch": "node init && webpack --config webpack.config.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix",
