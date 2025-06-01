@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node demo.mjs",
-    "start:node": "ts-node ./demo.ts",
+    "start": "node init && node demo.mjs",
+    "start:node": "node init && ts-node ./demo.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

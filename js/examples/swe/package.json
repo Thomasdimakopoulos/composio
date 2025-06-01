@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node-dev --transpile-only src/app.ts"
+    "start": "node init && ts-node-dev --transpile-only src/app.ts"
   },
   "keywords": [],
   "author": "",
