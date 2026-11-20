@@ -80,4 +80,5 @@ fern/api/openapi-mcp.json
 styles/*
 styles/config/*
 styles/config/vocabularies/*
+
 config.bat
